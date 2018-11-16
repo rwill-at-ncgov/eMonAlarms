@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=true" label="eMonAlarms Table" max_length="40" name="x_281011_emonalarm_emonalarms_table" type="collection">
+        <element display="true" label="alarmAction" max_length="40" name="alarmaction" type="string"/>
+        <element label="alarmDate" max_length="40" name="alarmdate" type="string"/>
+        <element label="alarmId" max_length="40" name="alarmid" type="string"/>
+        <element label="alarmState" max_length="40" name="alarmstate" type="string"/>
+        <element label="alarmTime" max_length="40" name="alarmtime" type="string"/>
+        <element label="alarmTitle" max_length="40" name="alarmtitle" type="string"/>
+        <element label="deviceType" max_length="40" name="devicetype" type="string"/>
+        <element label="emonAlarmCreated" max_length="40" name="emonalarmcreated" type="string"/>
+        <element label="emonAlarmCreatedETStr" max_length="40" name="emonalarmcreatedetstr" type="string"/>
+        <element label="eventMsg" max_length="40" name="eventmsg" type="string"/>
+        <element label="ipAddress" max_length="40" name="ipaddress" type="string"/>
+        <element label="modelClassCd" max_length="40" name="modelclasscd" type="integer"/>
+        <element label="modelGC" max_length="40" name="modelgc" type="string"/>
+        <element label="modelHandle" max_length="40" name="modelhandle" type="string"/>
+        <element label="modelName" max_length="40" name="modelname" type="string"/>
+        <element label="modelSysDesc" max_length="40" name="modelsysdesc" type="string"/>
+        <element label="modelTopo" max_length="40" name="modeltopo" type="string"/>
+        <element label="modelType" max_length="40" name="modeltype" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="severity" max_length="40" name="severity" type="string"/>
+        <element label="source" max_length="40" name="source" type="string"/>
+        <element label="sourceProg" max_length="40" name="sourceprog" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>

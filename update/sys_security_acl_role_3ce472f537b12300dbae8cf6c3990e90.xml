@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-16 18:05:42</sys_created_on>
+        <sys_id>3ce472f537b12300dbae8cf6c3990e90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_281011_emonalarm_emonalarms_table.x_281011_emonalarm.user</sys_name>
+        <sys_package display_value="eMonAlarms" source="x_281011_emonalarm">60e47a3137b12300dbae8cf6c3990e61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eMonAlarms">60e47a3137b12300dbae8cf6c3990e61</sys_scope>
+        <sys_security_acl display_value="x_281011_emonalarm_emonalarms_table">30e472f537b12300dbae8cf6c3990e8e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3ce472f537b12300dbae8cf6c3990e90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-16 18:05:42</sys_updated_on>
+        <sys_user_role display_value="x_281011_emonalarm.user" name="x_281011_emonalarm.user">a8e472f537b12300dbae8cf6c3990e64</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

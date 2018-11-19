@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="live_table_notification">
+    <live_table_notification action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <before_script><![CDATA[/**
+  * Optional script to set variables or cancel notification
+  * global variables
+  *      current is the current GlideRecord object
+  *      changedFields is an ArrayList of fields changed on submit, use changedFields.contains('fieldname') to check for change
+  *      set answer = false to cancel the notification
+  *      set profileSource to a GlideRecord to define the profile that is posting the message
+  *      set profileID to a live_profile sys_id to define the profile that is posting the message, by default it is the current record. Overrides profileSource if specified.
+  *      set any variable name and access the value in the message by using ${myVariableName}
+  */]]></before_script>
+        <condition/>
+        <description>eMon Alarm Live Feed</description>
+        <document_groups>alarmaction,alarmdate,alarmtime,severity</document_groups>
+        <feed_group/>
+        <message><![CDATA[
+alarmAction: ${alarmaction}
+alarmDate: ${alarmdate}
+alarmTime: ${alarmtime}
+Severity: ${severity}
+modelName: ${modelname}
+ipAddress: ${ipaddress}
+Source: ${source}
+
+eMonAlarm: ${URI}]]></message>
+        <post_feed>true</post_feed>
+        <post_rooms>false</post_rooms>
+        <sys_class_name>live_table_notification</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-19 20:59:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>46e8b27237b12300dbae8cf6c3990e7d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>eMon Alarm Live Feed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="eMonAlarms" source="x_281011_emonalarm">60e47a3137b12300dbae8cf6c3990e61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="eMonAlarms">60e47a3137b12300dbae8cf6c3990e61</sys_scope>
+        <sys_update_name>live_table_notification_46e8b27237b12300dbae8cf6c3990e7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-19 21:08:02</sys_updated_on>
+        <table>x_281011_emonalarm_emonalarms_table</table>
+    </live_table_notification>
+</record_update>

@@ -5,11 +5,11 @@
         <element label="alarmId" max_length="40" name="alarmid" type="string"/>
         <element label="alarmState" max_length="40" name="alarmstate" type="string"/>
         <element label="alarmTime" max_length="40" name="alarmtime" type="string"/>
-        <element label="alarmTitle" max_length="40" name="alarmtitle" type="string"/>
+        <element label="alarmTitle" max_length="256" name="alarmtitle" type="string"/>
         <element label="deviceType" max_length="40" name="devicetype" type="string"/>
         <element label="emonAlarmCreated" max_length="40" name="emonalarmcreated" type="string"/>
         <element label="emonAlarmCreatedETStr" max_length="40" name="emonalarmcreatedetstr" type="string"/>
-        <element label="eventMsg" max_length="40" name="eventmsg" type="string"/>
+        <element label="eventMsg" max_length="512" name="eventmsg" type="string"/>
         <element label="ipAddress" max_length="40" name="ipaddress" type="string"/>
         <element label="modelClassCd" max_length="40" name="modelclasscd" type="integer"/>
         <element label="modelGC" max_length="40" name="modelgc" type="string"/>
